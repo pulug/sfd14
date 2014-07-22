@@ -47,6 +47,6 @@ function createThumbs( $pathToImages, $pathToThumbs, $thumbWidth )
   }  
   closedir( $dir );
 }
-createThumbs("./img/","./th/",338);
+createThumbs("./img/","./th/",1200);
 
 ?>
