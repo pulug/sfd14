@@ -1,7 +1,7 @@
 Website - SFD
 ---
 
-The website is available at [pulug.github.io/sfd14](http://pulug.github.io/sfd14)  
+The website is available at [softwarefreedomday.in](http://softwarefreedomday.in)  
 If you're a web developer/designer, your **skills** *(and your pull requests)* are welcome.    
 
 ####License
