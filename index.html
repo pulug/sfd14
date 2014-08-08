@@ -291,8 +291,8 @@
 			<hr class="featurette-divider">
 			</div>
 		</section>
-		
-		<!--******************** Contact Us Section ********************-->		
+
+		<!--******************** Contact Us Section ********************-->
 		<section id="credits" class="single-page scrollblock">
 			<div class="container">
 				<div class="align"><i class="icon-custom-thumbs-up"></i>
@@ -314,14 +314,20 @@
 
 			</div>
 		</section>
-		
-		<!--******************** Event Location Section ********************-->		
+
+		<!--******************** Event Location Section ********************-->
 		<section id="maps" class="single-page scrollblock">
-			
+			<h1>
+			<i style="font-size:2.5em" class="icon-custom-location" ></i><br>	
+			Event Location
+			</h1>
+			<div style="text-align:center">
+				<p style="font-size:30px;">The event is going to held on 28 August at Golden Jubliee Hall, Sector-14, Chandigarh, India!!
+			</div>
 			<!-- google map -->
 			<div id="google_map" style="width:100%"></div>
 			<!-- /google map -->
-			
+
 		</section>
 
 		<hr>
@@ -434,28 +440,27 @@
 				// })
 
 			});
-			
-        $(document).on("click", ".alert", function(e) {
-        bootbox.dialog({
-  message: "Registration will start from 23 August 2014!<br>Registations would be only at our Registration Desk, at UIET canteen.<br>Registration fees will be Rs. 100/-<br>Limited seats available, only first 150 students to be registered.<br>No registrations will be entertained beyond the stated limit. Better be fast, you won't like to miss this train . . . ! ! !",
-  title: "Registration Details",
-  buttons: {
-    success: {
-      label: "Got It!",
-      className: "btn-success",
-      callback: function() {
-      }
-    },
-    main: {
-      label: "Any Query!!",
-      className: "btn-primary",
-      callback: function() {
-       window.location="http://localhost/demo/#credits";
-      }
-    }
-  }
-});
-        });
+
+			$(document).on("click", ".alert", function(e) {
+				bootbox.dialog({
+					message: "Registration will start from 23 August 2014!<br>Registations would be only at our Registration Desk, at UIET canteen.<br>Registration fees will be Rs. 100/-<br>Limited seats available, only first 150 students to be registered.<br>No registrations will be entertained beyond the stated limit. Better be fast, you won't like to miss this train . . . ! ! !",
+					title: "Registration Details",
+					buttons: {
+						success: {
+							label: "Got It!",
+							className: "btn-success",
+							callback: function() {}
+						},
+						main: {
+							label: "Any Query!!",
+							className: "btn-primary",
+							callback: function() {
+								window.location = "http://localhost/demo/#credits";
+							}
+						}
+					}
+				});
+			});
 		</script>
 		<!-- nprogress Initialization-->
 		<script>
