@@ -1,0 +1,51 @@
+body {
+	padding-top: 35px;
+}
+#google_map {
+	height: 500px;
+}
+#google_map img {
+	max-width: none !important;
+}
+.info {
+	color: #000 !important;
+}
+.alert{
+	background-color:transparent;
+	border:0px;
+}
+
+.btn{
+	line-height:5px;
+	display:inline-block;
+	margin:0px;
+}
+.modal-footer{
+text-align:center;
+}
+#feature{
+	height:auto;
+	padding-bottom:40px;
+	padding-top:20px;
+}
+
+@media (max-width: 1078px){
+	
+	.brand{
+		margin: -15px 0 !important;
+	}	
+} 
+
+@media (max-width: 432px){
+	
+	.brand{
+		width:250px;
+		margin: -30px 0 !important;
+	}	
+			@media (max-width: 365px){
+	
+	.brand{
+		width:200px;
+		margin: -40px 0 !important;
+	}	
+}
