@@ -575,27 +575,27 @@ article .inside {
 }
 /* Team and Credits */
 
-section#team, section#credits {
+section#team, section#contactus {
 	color: #e4e5e2;
 	background:#312A1E;
 }
-section#team .align, section#credits .align {
+section#team .align, section#contactus .align {
 	font-size: 6em;
 	margin-top:10px;
 	text-align: center;
 }
-#team h1, #credits h1 {
+#team h1, #contactus h1 {
 	font-size: 3em;
 	margin-bottom: 1em;
 	margin-top: 0.5em;
 }
-#credits, #team {
+#contactus, #team {
 	padding-top: 4.75em;
 }
 #team {
 	padding-bottom: 0;
 }
-#credits {
+#contactus {
 	padding-bottom: 0;
 }
 /* team */
@@ -628,11 +628,11 @@ section#team .align, section#credits .align {
 }
 /* Credits Form */
 
-section#credits .featurette {
+section#contactus .featurette {
 	text-align: center;
 	font-size: 21px;
 }
-section#credits h2.featurette-heading {
+section#contactus h2.featurette-heading {
 	margin-bottom: 24px;
 }
 
