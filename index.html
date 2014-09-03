@@ -95,6 +95,8 @@
                             </li>
                             <li><a title="Event Location" href="#maps">Event Location</a>
                             </li>
+                            <li><a title="Sponsers" href="">Sponsers</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -360,7 +362,7 @@
                         <h3>Aasaqt Agarwal</h3> 
                     </div>
                 </div>
-                
+
                 <div class="row">
                     <div class="span12">
                         <div class="align">
@@ -554,6 +556,21 @@
                             callback: function() {
                                 window.location = "#contactus";
                             }
+                        }
+                    }
+                });
+            });
+
+            $(function(e) {
+                bootbox.dialog({
+                    message: "<img src='img/alphaITworld logo.png'><br><br><center>This event has been sponsered by alphaITworld</center>",
+
+                    buttons: {
+                        success: {
+                            label: "Oh,Ok",
+                            className: "btn-success",
+                            callback: function() {}
+
                         }
                     }
                 });
