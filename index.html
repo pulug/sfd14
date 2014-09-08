@@ -95,7 +95,7 @@
                             </li>
                             <li><a title="Event Location" href="#maps">Event Location</a>
                             </li>
-                            <li><a title="Sponsers" href="">Sponsers</a>
+                            <li><a title="Sponsers" href="#sponsers">Sponsers</a>
                             </li>
                         </ul>
                     </nav>
@@ -137,6 +137,7 @@
                 </div>
             </header>
         </div>
+        </section>
         <!-- About SFD -->
         <div class="scrollblock">
             <section id="feature">
@@ -432,18 +433,25 @@
         </section>
 
         <!--******************** Event Location Section ********************-->
-        <section id="maps" class="single-page scrollblock">
+        <section style="top:-70px" id="maps" class="single-page scrollblock">
             <h1>
 			<i style="font-size:2.5em" class="icon-custom-location" ></i><br>	
 			Event Location
 			</h1>
             <div style="text-align:center">
-                <p style="font-size:30px;">The event is going to held on 20th and 21st of September at Golden Jubliee Hall, Sector-14, Chandigarh, India!!
+                <p style="font-size:30px;">The event is going to held on 20th and 21st of September at Golden Jubliee Hall, Sector-14, Chandigarh, India!!</p>
             </div>
             <!-- google map -->
             <div id="google_map" style="width:100%"></div>
             <!-- /google map -->
 
+        </section>
+        
+         <section  id="sponsers" style="background:#FFF;margin-top:-200px" class="single-page scrollblock">
+            <div style="text-align:center">
+                <p style="font-size:30px;font-weight:bold">This event has been sponsered by</p>
+                <img src="img/alphaITworld%20logo.png">
+            </div>
         </section>
 
         <hr>
@@ -578,20 +586,6 @@
                 });
             });
 
-            $(function(e) {
-                bootbox.dialog({
-                    message: "<img src='img/alphaITworld logo.png'><br><br><center>This event has been sponsered by alphaITworld</center>",
-
-                    buttons: {
-                        success: {
-                            label: "Oh,Ok",
-                            className: "btn-success",
-                            callback: function() {}
-
-                        }
-                    }
-                });
-            });
         </script>
         <!-- nprogress Initialization-->
         <script>
